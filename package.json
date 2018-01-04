@@ -1,0 +1,28 @@
+{
+  "name": "karma-test",
+  "version": "1.0.0",
+  "description": "what is Karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkstarfish/karma-test.git"
+  },
+  "author": "pinkstarfish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinkstarfish/karma-test/issues"
+  },
+  "homepage": "https://github.com/pinkstarfish/karma-test#readme",
+  "dependencies": {
+    "jasmine-core": "^2.8.0",
+    "karma": "^2.0.0"
+  },
+  "devDependencies": {
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2"
+  }
+}
